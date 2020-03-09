@@ -1,0 +1,5 @@
+num1 = int(input('vvod:'))
+num2 = int(input('vvod:'))
+diapazon = range(num1,num2+1,1)
+chisla = list(diapazon)
+print(chisla)

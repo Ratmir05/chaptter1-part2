@@ -1,0 +1,5 @@
+time1 = input('choose ur time (H:M:S):').split(':')
+time2 = input('choose ur time (H:M:S):').split(':')
+time1 = int(time1[0]) * 60 + int(time1[1]) * 60 + int(time1[2])
+time2 = int(time2[0])*60 + int(time2[1]) * 60 + int(time2[2])
+print(time1 - time2)

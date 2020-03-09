@@ -1,0 +1,6 @@
+students = int(input('enter your number of students'))
+apples = int(input('enter your number of apples'))
+x = (apples//students)
+y = (apples%students)
+print(x)
+print(y)
